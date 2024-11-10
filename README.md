@@ -2,7 +2,7 @@
 
 # MERN E-Commerce Web Application
 
-A powerful full-stack e-commerce web application built with the **MERN** stack (MongoDB, Express.js, React, Node.js). This project showcases a fully functional online store with real-world features such as product management, secure payment processing, and user authentication, built to resemble platforms like **Amazon** and **Myntra**.
+A powerful and responsive e-commerce web application built with the **MERN** stack and **Spring Boot** for robust admin management. Modeled after popular platforms like **Amazon** and **Myntra**, this project includes essential e-commerce functionalities like **product management**, **secure payments**, and **user authentication**.
 
 ---
 
@@ -11,7 +11,7 @@ A powerful full-stack e-commerce web application built with the **MERN** stack (
 - **User Authentication**: Secure user login and registration with **JWT (JSON Web Tokens)** for seamless authentication.
 - **Product Management**: Users can browse, add to cart, and purchase products. Admins can manage products and update inventory.
 - **Payment Integration**: Integrated with **Razorpay** for smooth, secure payment processing.
-- **Admin Dashboard**: A complete dashboard for admins to manage orders, update statuses, and oversee products.
+- **Admin Dashboard**: **Spring Boot** for admin services and **MySQL** for structured data management, A complete dashboard for admins to manage orders, update statuses, and oversee products.
 - **Responsive Design**: Built using **React** and **Material UI (MUI)** to ensure the application works seamlessly across different devices.
 - **State Management**: Efficient state management with **Redux**, ensuring optimal user experience and performance.
 - **Tailwind CSS**: Used for custom, responsive, and modern styling, enhancing UI flexibility.
