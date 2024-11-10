@@ -116,20 +116,3 @@ We welcome contributions to this project. To contribute:
 5. Open a pull request.
 
 ---
-
-## Screenshots
-
-### Home Page
-
-- The main landing page displays the products available for purchase, allowing users to browse and add them to the cart.
-
-### Admin Dashboard
-
-- The admin panel provides functionality for managing products and orders, with intuitive UI for easy navigation.
-
----
-
-## Acknowledgments
-
-This project was inspired by real-world e-commerce websites, and demonstrates a complete end-to-end solution using modern technologies.
-
