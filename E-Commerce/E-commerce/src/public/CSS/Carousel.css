@@ -1,0 +1,70 @@
+.carousel-item {
+    position: relative; /* Required for positioning the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set your desired height */
+    padding: 10px; /* Add padding */
+    margin: 10px; /* Add margin */
+    overflow: hidden;
+    border-radius: 10px; /* Optional: rounded corners */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.carousel-item:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.shop-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center */
+    width: 80%; /* Set width to make it smaller */
+    height: 80%; /* Set height to make it smaller */
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s; /* Smooth transition */
+}
+
+.carousel-item:hover .shop-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.shop-button {
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.4s; /* Smooth background color change */
+}
+
+.shop-button:hover {
+    background-color: #fc3161; /* Darker shade on hover */
+}
+
+.shop {
+    margin-top: 10px; /* Space between button and title */
+    font-size: 0.8rem; /* Base font size */
+    transition: font-size 0.3s; /* Smooth font size change */
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-item:hover .shop {
+    font-size: 0.8rem; /* Increase title size on hover */
+    text-align: center;
+    padding: 10px;
+}
